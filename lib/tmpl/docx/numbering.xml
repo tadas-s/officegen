@@ -18,7 +18,40 @@
         <w:lvl w:ilvl="0">
             <w:start w:val="1"/>
             <w:numFmt w:val="decimal"/>
+            <w:lvlText w:val="(%1)"/>
+            <w:lvlJc w:val="left"/>
+            <w:pPr>
+                <w:ind w:left="540" w:hanging="540"/>
+            </w:pPr>
+        </w:lvl>
+    </w:abstractNum>
+    <w:abstractNum w:abstractNumId="3">
+        <w:lvl w:ilvl="0">
+            <w:start w:val="1"/>
+            <w:numFmt w:val="decimal"/>
+            <w:lvlText w:val="%1)"/>
+            <w:lvlJc w:val="left"/>
+            <w:pPr>
+                <w:ind w:left="540" w:hanging="540"/>
+            </w:pPr>
+        </w:lvl>
+    </w:abstractNum>
+    <w:abstractNum w:abstractNumId="4">
+        <w:lvl w:ilvl="0">
+            <w:start w:val="1"/>
+            <w:numFmt w:val="decimal"/>
             <w:lvlText w:val="[%1]"/>
+            <w:lvlJc w:val="left"/>
+            <w:pPr>
+                <w:ind w:left="540" w:hanging="540"/>
+            </w:pPr>
+        </w:lvl>
+    </w:abstractNum>
+    <w:abstractNum w:abstractNumId="5">
+        <w:lvl w:ilvl="0">
+            <w:start w:val="1"/>
+            <w:numFmt w:val="decimal"/>
+            <w:lvlText w:val="%1-"/>
             <w:lvlJc w:val="left"/>
             <w:pPr>
                 <w:ind w:left="540" w:hanging="540"/>
@@ -30,5 +63,14 @@
     </w:num>
     <w:num w:numId="2">
         <w:abstractNumId w:val="2"/>
+    </w:num>
+    <w:num w:numId="3">
+        <w:abstractNumId w:val="3"/>
+    </w:num>
+    <w:num w:numId="4">
+        <w:abstractNumId w:val="4"/>
+    </w:num>
+    <w:num w:numId="5">
+        <w:abstractNumId w:val="5"/>
     </w:num>
 </w:numbering>
